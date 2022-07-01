@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+nav{
+  padding-left: 10px ;
+  padding-right: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+
+#featured-property {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+right: 5em;
+}
+
+#texts{
+  font-size: 20px ;
+  text-align: center;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+#texts{
+  display: grid;
+  grid-template-rows: auto auto;
+
+}
+
+#details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: red;
+  text-align: center;
+}
